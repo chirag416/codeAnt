@@ -21,7 +21,7 @@ function App() {
       <Routes>
         {/* Route for Layout + RepositoryList page */}
         <Route
-          path="/"
+          path="/home"
           element={
             <Layout isMobile={isMobile}>
               <RepositoryList />
@@ -29,7 +29,7 @@ function App() {
           }
         />
         {/* Route for Home page */}
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
